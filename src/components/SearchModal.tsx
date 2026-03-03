@@ -69,7 +69,7 @@ export const SearchModal = ({ pages, open, onClose }: Props) => {
   };
 
   return (
-    <StyledDialog open={open} onClose={onClose} fullWidth maxWidth="sm">
+    <StyledDialog open={open} onClose={onClose} fullWidth maxWidth="sm" disableRestoreFocus>
       <StyledDialogContent>
         <SearchField
           autoFocus
@@ -118,11 +118,15 @@ export const SearchModal = ({ pages, open, onClose }: Props) => {
   );
 };
 
-const StyledDialog = styled(Dialog)({
+const StyledDialog = styled(Dialog)(({ theme }) => ({
+  "& .MuiDialog-container": {
+    alignItems: "flex-start",
+    paddingTop: theme.spacing(12),
+  },
   "& .MuiDialog-paper": {
     borderRadius: 12,
   },
-});
+}));
 
 const StyledDialogContent = styled(DialogContent)(({ theme }) => ({
   padding: theme.spacing(2),
