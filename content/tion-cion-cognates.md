@@ -55,13 +55,22 @@ Some words have additional spelling changes beyond -tion to -ción:
 
 | English        | Spanish       | Note               |
 | -------------- | ------------- | ------------------ |
-| translation    | traducción    | different root     |
 | speculation    | especulación  | extra "e" at start |
 | authorization  | autorización  | no "h" in Spanish  |
 | immigration    | inmigración   | one "m" in Spanish |
 | recommendation | recomendación | one "m" in Spanish |
 | description    | descripción   | "cc" replaces "ct" |
 | introduction   | introducción  | "cc" replaces "ct" |
+
+## Different Words
+
+Some English **-tion** words aren't cognates at all - Spanish uses entirely different words:
+
+| English     | Spanish    | Etymology                                              |
+| ----------- | ---------- | ------------------------------------------------------ |
+| translation | traducción | Latin *translatio* vs *traductio* - both mean "across" |
+
+Unlike spelling differences above, these are etymologically distinct words that happen to share meaning.
 
 ## More Common TION/CION Cognates
 
