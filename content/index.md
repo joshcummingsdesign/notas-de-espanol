@@ -10,10 +10,11 @@ Welcome to my Spanish language learning notes. This collection covers vocabulary
 
 Use the sidebar to browse topics, or press `Ctrl + P` to search through all notes.
 
-## Topics
+## Categories
 
-- **Verbs** - Conjugations and usage of common Spanish verbs
 - **Grammar** - Rules and patterns of Spanish grammar
-- **Vocabulary** - Useful words and phrases
+- **Phrases** - Useful expressions for common situations
+- **Verbs** - Conjugations and usage for common verbs
+- **Vocabulary** - Words, cognates, and building your lexicon
 
 Happy learning!

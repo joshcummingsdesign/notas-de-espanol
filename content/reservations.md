@@ -1,6 +1,6 @@
 ---
 title: Reservations
-category: Useful Expressions
+category: Phrases
 ---
 
 # Reservations
