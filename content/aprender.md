@@ -26,7 +26,7 @@ category: Verbs
 | Ella aprende rápido. | She learns quickly.    |
 | Aprendemos juntos.   | We learn together.     |
 
-### Aprender + A
+### Aprender + A + Infinitive
 
 Use "aprender a" + infinitive to express learning how to do something:
 

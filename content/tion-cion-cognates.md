@@ -49,6 +49,18 @@ Replace **-ción** with **-r** to create the infinitive verb form:
 | reservación   | reservar   | to reserve     |
 | educación     | educar     | to educate     |
 
+## Creating People: -ción to -dor/-dora
+
+Replace **-ción** with **-dor** (masculine) or **-dora** (feminine) to describe a person who does that thing:
+
+| Noun          | Person (m)    | Person (f)     | English        |
+| ------------- | ------------- | -------------- | -------------- |
+| colaboración    | colaborador    | colaboradora    | collaborator    |
+| administración  | administrador  | administradora  | administrator   |
+| investigación   | investigador   | investigadora   | investigator    |
+
+Note: "Colaborador" is commonly used to mean "employee."
+
 ## Watch Out: Spelling Differences
 
 Some words have additional spelling changes beyond -tion to -ción:

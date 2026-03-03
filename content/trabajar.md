@@ -25,3 +25,9 @@ category: Verbs
 | ¿Dónde trabajas?        | Where do you work?   |
 | Ella trabaja mucho.     | She works a lot.     |
 | Trabajamos juntos.      | We work together.    |
+
+## Exceptions
+
+| Spanish                                     | English                                    |
+| ------------------------------------------- | ------------------------------------------ |
+| Quiero colaborar contigo en este proyecto.  | I want to work with you on this project.   |
