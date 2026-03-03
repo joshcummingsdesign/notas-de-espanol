@@ -10,7 +10,7 @@ interface SearchResult {
   snippet: string;
 }
 
-export function searchPages(pages: Page[], query: string): SearchResult[] {
+export const searchPages = (pages: Page[], query: string): SearchResult[] => {
   if (!query.trim()) {
     return [];
   }
@@ -24,17 +24,18 @@ export function searchPages(pages: Page[], query: string): SearchResult[] {
     const contentMatch = contentLower.includes(lowerQuery);
 
     if (titleMatch || contentMatch) {
-      let snippet = '';
+      let snippet = "";
 
       if (contentMatch) {
         const index = contentLower.indexOf(lowerQuery);
         const start = Math.max(0, index - 40);
         const end = Math.min(page.content.length, index + query.length + 40);
-        snippet = (start > 0 ? '...' : '') +
-                  page.content.slice(start, end).trim() +
-                  (end < page.content.length ? '...' : '');
+        snippet =
+          (start > 0 ? "..." : "") +
+          page.content.slice(start, end).trim() +
+          (end < page.content.length ? "..." : "");
       } else {
-        snippet = page.content.slice(0, 80).trim() + '...';
+        snippet = page.content.slice(0, 80).trim() + "...";
       }
 
       results.push({
@@ -46,4 +47,4 @@ export function searchPages(pages: Page[], query: string): SearchResult[] {
   }
 
   return results;
-}
+};

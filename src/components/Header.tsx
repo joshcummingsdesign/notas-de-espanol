@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { AppBar, Toolbar, IconButton, Box, styled } from '@mui/material';
-import { Search as SearchIcon, Menu as MenuIcon } from '@mui/icons-material';
-import Link from 'next/link';
-import Image from 'next/image';
+import { AppBar, Toolbar, IconButton, Box, styled } from "@mui/material";
+import { Search as SearchIcon, Menu as MenuIcon } from "@mui/icons-material";
+import Link from "next/link";
+import Image from "next/image";
 
 interface Props {
   onMenuClick: () => void;
@@ -27,11 +27,7 @@ export const Header = ({ onMenuClick, onSearchClick }: Props) => {
           <SiteName>Notas de Español</SiteName>
         </LogoLink>
         <Spacer />
-        <IconButton
-          color="inherit"
-          aria-label="search"
-          onClick={onSearchClick}
-        >
+        <IconButton color="inherit" aria-label="search" onClick={onSearchClick}>
           <SearchIcon />
         </IconButton>
       </Toolbar>
@@ -41,31 +37,31 @@ export const Header = ({ onMenuClick, onSearchClick }: Props) => {
 
 const StyledAppBar = styled(AppBar)(({ theme }) => ({
   zIndex: theme.zIndex.drawer + 1,
-  backgroundColor: 'white',
+  backgroundColor: "white",
   color: theme.palette.text.primary,
   boxShadow: theme.shadows[1],
 }));
 
 const MenuButton = styled(IconButton)(({ theme }) => ({
   marginRight: theme.spacing(2),
-  [theme.breakpoints.up('md')]: {
-    display: 'none',
+  [theme.breakpoints.up("md")]: {
+    display: "none",
   },
 }));
 
 const LogoLink = styled(Link)({
-  display: 'flex',
-  alignItems: 'center',
-  textDecoration: 'none',
+  display: "flex",
+  alignItems: "center",
+  textDecoration: "none",
 });
 
-const SiteName = styled('span')(({ theme }) => ({
+const SiteName = styled("span")(({ theme }) => ({
   marginLeft: theme.spacing(1.5),
-  fontSize: '1.25rem',
+  fontSize: "1.25rem",
   fontWeight: 600,
   color: theme.palette.primary.main,
-  [theme.breakpoints.down('sm')]: {
-    display: 'none',
+  [theme.breakpoints.down("sm")]: {
+    display: "none",
   },
 }));
 

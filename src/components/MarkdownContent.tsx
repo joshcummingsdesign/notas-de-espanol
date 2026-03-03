@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-import { Typography, Box, styled } from '@mui/material';
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import { Typography, Box, styled } from "@mui/material";
 
 interface Props {
   content: string;
@@ -35,13 +35,17 @@ export const MarkdownContent = ({ content }: Props) => {
             </Typography>
           ),
           ul: ({ children }) => <StyledList>{children}</StyledList>,
-          ol: ({ children }) => <StyledOrderedList>{children}</StyledOrderedList>,
+          ol: ({ children }) => (
+            <StyledOrderedList>{children}</StyledOrderedList>
+          ),
           li: ({ children }) => (
             <Typography component="li" variant="body1">
               {children}
             </Typography>
           ),
-          blockquote: ({ children }) => <StyledBlockquote>{children}</StyledBlockquote>,
+          blockquote: ({ children }) => (
+            <StyledBlockquote>{children}</StyledBlockquote>
+          ),
           code: ({ children, className }) => {
             const isInline = !className;
             return isInline ? (
@@ -64,68 +68,68 @@ export const MarkdownContent = ({ content }: Props) => {
 
 const ContentWrapper = styled(Box)({
   maxWidth: 800,
-  '& > *:first-of-type': {
+  "& > *:first-of-type": {
     marginTop: 0,
   },
 });
 
-const StyledList = styled('ul')(({ theme }) => ({
+const StyledList = styled("ul")(({ theme }) => ({
   paddingLeft: theme.spacing(3),
   marginBottom: theme.spacing(2),
 }));
 
-const StyledOrderedList = styled('ol')(({ theme }) => ({
+const StyledOrderedList = styled("ol")(({ theme }) => ({
   paddingLeft: theme.spacing(3),
   marginBottom: theme.spacing(2),
 }));
 
-const StyledBlockquote = styled('blockquote')(({ theme }) => ({
+const StyledBlockquote = styled("blockquote")(({ theme }) => ({
   borderLeft: `4px solid ${theme.palette.primary.main}`,
   paddingLeft: theme.spacing(2),
   marginLeft: 0,
   marginRight: 0,
-  fontStyle: 'italic',
+  fontStyle: "italic",
   color: theme.palette.text.secondary,
 }));
 
-const InlineCode = styled('code')(({ theme }) => ({
+const InlineCode = styled("code")(({ theme }) => ({
   backgroundColor: theme.palette.grey[100],
-  padding: '2px 6px',
+  padding: "2px 6px",
   borderRadius: 4,
-  fontFamily: 'monospace',
-  fontSize: '0.9em',
+  fontFamily: "monospace",
+  fontSize: "0.9em",
 }));
 
-const CodeBlock = styled('code')(({ theme }) => ({
-  display: 'block',
+const CodeBlock = styled("code")(({ theme }) => ({
+  display: "block",
   backgroundColor: theme.palette.grey[100],
   padding: theme.spacing(2),
   borderRadius: 8,
-  fontFamily: 'monospace',
-  fontSize: '0.9em',
-  overflowX: 'auto',
+  fontFamily: "monospace",
+  fontSize: "0.9em",
+  overflowX: "auto",
 }));
 
-const Pre = styled('pre')(({ theme }) => ({
+const Pre = styled("pre")(({ theme }) => ({
   margin: 0,
   marginBottom: theme.spacing(2),
 }));
 
-const StyledTable = styled('table')(({ theme }) => ({
-  width: '100%',
-  borderCollapse: 'collapse',
+const StyledTable = styled("table")(({ theme }) => ({
+  width: "100%",
+  borderCollapse: "collapse",
   marginBottom: theme.spacing(2),
 }));
 
-const StyledTh = styled('th')(({ theme }) => ({
+const StyledTh = styled("th")(({ theme }) => ({
   backgroundColor: theme.palette.grey[100],
   padding: theme.spacing(1, 2),
   borderBottom: `2px solid ${theme.palette.divider}`,
-  textAlign: 'left',
+  textAlign: "left",
   fontWeight: 600,
 }));
 
-const StyledTd = styled('td')(({ theme }) => ({
+const StyledTd = styled("td")(({ theme }) => ({
   padding: theme.spacing(1, 2),
   borderBottom: `1px solid ${theme.palette.divider}`,
 }));

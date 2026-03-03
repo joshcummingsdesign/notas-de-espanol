@@ -53,11 +53,11 @@ Always use named imports and exports:
 
 ```typescript
 // Good
-import { Header } from './Header';
+import { Header } from "./Header";
 export const Header = () => {};
 
 // Bad
-import Header from './Header';
+import Header from "./Header";
 export default function Header() {}
 ```
 
@@ -67,13 +67,13 @@ Import all Material UI components in a single statement, including `styled`:
 
 ```typescript
 // Good
-import { AppBar, Toolbar, IconButton, Box, styled } from '@mui/material';
-import { Search as SearchIcon, Menu as MenuIcon } from '@mui/icons-material';
+import { AppBar, Toolbar, IconButton, Box, styled } from "@mui/material";
+import { Search as SearchIcon, Menu as MenuIcon } from "@mui/icons-material";
 
 // Bad
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import { styled } from '@mui/material/styles';
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import { styled } from "@mui/material/styles";
 ```
 
 ## Styling

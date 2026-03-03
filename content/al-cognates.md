@@ -1,5 +1,6 @@
 ---
 title: AL Cognates
+category: Vocabulary
 ---
 
 # AL Cognates
@@ -10,19 +11,19 @@ title: AL Cognates
 
 Most English words ending in **-al** are spelled exactly the same in Spanish. The main difference is pronunciation - in Spanish, stress the final syllable and pronounce the "a" as "ah."
 
-| English | Spanish | Pronunciation |
-|---------|---------|---------------|
-| animal | animal | ah-nee-MAHL |
-| legal | legal | leh-GAHL |
-| social | social | soh-see-AHL |
-| criminal | criminal | cree-mee-NAHL |
-| digital | digital | dee-hee-TAHL |
-| final | final | fee-NAHL |
-| formal | formal | for-MAHL |
+| English    | Spanish    | Pronunciation     |
+| ---------- | ---------- | ----------------- |
+| animal     | animal     | ah-nee-MAHL       |
+| legal      | legal      | leh-GAHL          |
+| social     | social     | soh-see-AHL       |
+| criminal   | criminal   | cree-mee-NAHL     |
+| digital    | digital    | dee-hee-TAHL      |
+| final      | final      | fee-NAHL          |
+| formal     | formal     | for-MAHL          |
 | individual | individual | een-dee-bee-DWAHL |
-| normal | normal | nor-MAHL |
-| hospital | hospital | os-pee-TAHL |
-| judicial | judicial | hoo-dee-see-AHL |
+| normal     | normal     | nor-MAHL          |
+| hospital   | hospital   | os-pee-TAHL       |
+| judicial   | judicial   | hoo-dee-see-AHL   |
 
 ## More Common AL Cognates
 

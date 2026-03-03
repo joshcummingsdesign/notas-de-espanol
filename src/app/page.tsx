@@ -1,9 +1,9 @@
-import { getPageBySlug } from '@/lib/content';
-import { MarkdownContent } from '@/components/MarkdownContent';
-import { notFound } from 'next/navigation';
+import { getPageBySlug } from "@/lib/content";
+import { MarkdownContent } from "@/components/MarkdownContent";
+import { notFound } from "next/navigation";
 
 const HomePage = () => {
-  const page = getPageBySlug('');
+  const page = getPageBySlug("");
 
   if (!page) {
     notFound();

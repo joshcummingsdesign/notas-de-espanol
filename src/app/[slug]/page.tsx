@@ -1,6 +1,6 @@
-import { getPageBySlug, getAllSlugs } from '@/lib/content';
-import { MarkdownContent } from '@/components/MarkdownContent';
-import { notFound } from 'next/navigation';
+import { getPageBySlug, getAllSlugs } from "@/lib/content";
+import { MarkdownContent } from "@/components/MarkdownContent";
+import { notFound } from "next/navigation";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -8,7 +8,7 @@ interface Props {
 
 export const generateStaticParams = async () => {
   const slugs = getAllSlugs();
-  return slugs.filter((slug) => slug !== '').map((slug) => ({ slug }));
+  return slugs.filter((slug) => slug !== "").map((slug) => ({ slug }));
 };
 
 const NotePage = async ({ params }: Props) => {

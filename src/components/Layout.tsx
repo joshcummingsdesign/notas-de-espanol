@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { useState, useCallback, useEffect } from 'react';
-import { Toolbar, styled } from '@mui/material';
-import { Header } from './Header';
-import { Sidebar } from './Sidebar';
-import { SearchModal } from './SearchModal';
+import { useState, useCallback, useEffect } from "react";
+import { Toolbar, styled } from "@mui/material";
+import { Header } from "./Header";
+import { Sidebar } from "./Sidebar";
+import { SearchModal } from "./SearchModal";
 
 interface Page {
   slug: string;
@@ -39,36 +39,47 @@ export const Layout = ({ pages, children }: Props) => {
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.ctrlKey && event.key === 'p') {
+      if (event.ctrlKey && event.key === "p") {
         event.preventDefault();
         setSearchOpen((prev) => !prev);
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
   return (
     <RootContainer>
-      <Header onMenuClick={handleDrawerToggle} onSearchClick={handleSearchOpen} />
-      <Sidebar pages={pages} mobileOpen={mobileOpen} onClose={handleDrawerClose} />
+      <Header
+        onMenuClick={handleDrawerToggle}
+        onSearchClick={handleSearchOpen}
+      />
+      <Sidebar
+        pages={pages}
+        mobileOpen={mobileOpen}
+        onClose={handleDrawerClose}
+      />
       <MainContent>
         <Toolbar />
         {children}
       </MainContent>
-      <SearchModal pages={pages} open={searchOpen} onClose={handleSearchClose} />
+      <SearchModal
+        pages={pages}
+        open={searchOpen}
+        onClose={handleSearchClose}
+      />
     </RootContainer>
   );
 };
 
-const RootContainer = styled('div')({
-  display: 'flex',
+const RootContainer = styled("div")({
+  display: "flex",
 });
 
-const MainContent = styled('main')(({ theme }) => ({
+const MainContent = styled("main")(({ theme }) => ({
   flexGrow: 1,
   padding: theme.spacing(3),
-  maxWidth: '100%',
-  overflow: 'hidden',
+  maxWidth: "100%",
+  overflow: "hidden",
 }));

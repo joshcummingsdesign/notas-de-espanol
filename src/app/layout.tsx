@@ -1,10 +1,10 @@
-import { ThemeRegistry } from '@/components/ThemeRegistry';
-import { Layout } from '@/components/Layout';
-import { getAllPages } from '@/lib/content';
+import { ThemeRegistry } from "@/components/ThemeRegistry";
+import { Layout } from "@/components/Layout";
+import { getAllPages } from "@/lib/content";
 
 export const metadata = {
-  title: 'Notas de Español',
-  description: 'Spanish language learning notes',
+  title: "Notas de Español",
+  description: "Spanish language learning notes",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

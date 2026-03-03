@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import {
   Dialog,
   DialogContent,
@@ -12,10 +12,10 @@ import {
   InputAdornment,
   Typography,
   styled,
-} from '@mui/material';
-import { Search as SearchIcon } from '@mui/icons-material';
-import { useRouter } from 'next/navigation';
-import { searchPages } from '@/lib/search';
+} from "@mui/material";
+import { Search as SearchIcon } from "@mui/icons-material";
+import { useRouter } from "next/navigation";
+import { searchPages } from "@/lib/search";
 
 interface Page {
   slug: string;
@@ -30,7 +30,7 @@ interface Props {
 }
 
 export const SearchModal = ({ pages, open, onClose }: Props) => {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
   const [selectedIndex, setSelectedIndex] = useState(0);
   const router = useRouter();
 
@@ -38,7 +38,7 @@ export const SearchModal = ({ pages, open, onClose }: Props) => {
 
   useEffect(() => {
     if (!open) {
-      setQuery('');
+      setQuery("");
       setSelectedIndex(0);
     }
   }, [open]);
@@ -48,7 +48,7 @@ export const SearchModal = ({ pages, open, onClose }: Props) => {
   }, [query]);
 
   const handleResultClick = (slug: string) => {
-    const href = slug === '' ? '/' : `/${slug}`;
+    const href = slug === "" ? "/" : `/${slug}`;
     router.push(href);
     onClose();
   };
@@ -56,13 +56,13 @@ export const SearchModal = ({ pages, open, onClose }: Props) => {
   const handleKeyDown = (event: React.KeyboardEvent) => {
     if (results.length === 0) return;
 
-    if (event.key === 'ArrowDown') {
+    if (event.key === "ArrowDown") {
       event.preventDefault();
       setSelectedIndex((prev) => (prev + 1) % results.length);
-    } else if (event.key === 'ArrowUp') {
+    } else if (event.key === "ArrowUp") {
       event.preventDefault();
       setSelectedIndex((prev) => (prev - 1 + results.length) % results.length);
-    } else if (event.key === 'Enter' && results[selectedIndex]) {
+    } else if (event.key === "Enter" && results[selectedIndex]) {
       event.preventDefault();
       handleResultClick(results[selectedIndex].slug);
     }
@@ -119,7 +119,7 @@ export const SearchModal = ({ pages, open, onClose }: Props) => {
 };
 
 const StyledDialog = styled(Dialog)({
-  '& .MuiDialog-paper': {
+  "& .MuiDialog-paper": {
     borderRadius: 12,
   },
 });
@@ -129,7 +129,7 @@ const StyledDialogContent = styled(DialogContent)(({ theme }) => ({
 }));
 
 const SearchField = styled(TextField)({
-  '& .MuiOutlinedInput-root': {
+  "& .MuiOutlinedInput-root": {
     borderRadius: 8,
   },
 });
@@ -137,34 +137,34 @@ const SearchField = styled(TextField)({
 const ResultsList = styled(List)(({ theme }) => ({
   marginTop: theme.spacing(1),
   maxHeight: 300,
-  overflow: 'auto',
+  overflow: "auto",
 }));
 
 const ResultButton = styled(ListItemButton)(({ theme }) => ({
   borderRadius: 8,
-  '&.Mui-selected': {
+  "&.Mui-selected": {
     backgroundColor: theme.palette.action.selected,
   },
-  '&.Mui-selected:hover': {
+  "&.Mui-selected:hover": {
     backgroundColor: theme.palette.action.selected,
   },
 }));
 
 const NoResults = styled(Typography)(({ theme }) => ({
   padding: theme.spacing(2),
-  textAlign: 'center',
+  textAlign: "center",
   color: theme.palette.text.secondary,
 }));
 
 const KeyboardHint = styled(Typography)(({ theme }) => ({
   marginTop: theme.spacing(2),
-  textAlign: 'center',
-  fontSize: '0.75rem',
+  textAlign: "center",
+  fontSize: "0.75rem",
   color: theme.palette.text.secondary,
-  '& kbd': {
-    padding: '2px 6px',
+  "& kbd": {
+    padding: "2px 6px",
     borderRadius: 4,
     backgroundColor: theme.palette.grey[200],
-    fontFamily: 'monospace',
+    fontFamily: "monospace",
   },
 }));
