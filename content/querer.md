@@ -37,7 +37,7 @@ Stem change: e → ie in all forms except nosotros.
 
 Note: "Te quiero" is commonly used for romantic love and close relationships. "Te amo" is more intense/passionate.
 
-### Querer + Infinitive
+## Querer + Infinitive
 
 | Spanish                    | English                   |
 | -------------------------- | ------------------------- |

@@ -35,3 +35,4 @@ Use "los" for plural. Note: only sábado and domingo change form.
 | El lunes tengo clase.       | On Monday I have class.      |
 | Trabajo los viernes.        | I work on Fridays.           |
 | ¿Puedes trabajar el lunes?  | Can you work on Monday?      |
+| El lunes es mi día favorito. | Monday is my favorite day.  |

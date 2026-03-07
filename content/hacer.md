@@ -36,23 +36,3 @@ Irregular yo form: hago
 | Hago la cena.        | I'm making dinner.   |
 | Ella hace un pastel. | She's making a cake. |
 | Hacemos planes.      | We're making plans.  |
-
-### Weather Expressions
-
-"Hacer" is used in many weather expressions:
-
-| Spanish           | English              |
-| ----------------- | -------------------- |
-| Hace calor.       | It's hot.            |
-| Hace frío.        | It's cold.           |
-| Hace sol.         | It's sunny.          |
-| Hace viento.      | It's windy.          |
-| Hace buen tiempo. | The weather is nice. |
-
-### Hacer + Time Expression (Ago)
-
-| Spanish              | English        |
-| -------------------- | -------------- |
-| Hace dos años.       | Two years ago. |
-| Hace una hora.       | An hour ago.   |
-| ¿Hace cuánto tiempo? | How long ago?  |

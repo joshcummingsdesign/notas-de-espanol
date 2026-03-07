@@ -19,15 +19,13 @@ category: Verbs
 
 ## Common Uses
 
-### To Speak
-
 | Spanish                  | English                     |
 | ------------------------ | --------------------------- |
 | Hablo español.           | I speak Spanish.            |
 | ¿Hablas inglés?          | Do you speak English?       |
 | Ella habla tres idiomas. | She speaks three languages. |
 
-### Hablar + Con
+## Hablar + Con
 
 Use "hablar con" to express talking with someone:
 
