@@ -7,7 +7,7 @@ category: Verbs
 
 "Dormir" means "to sleep." It's an irregular -ir verb with an o→ue stem change in the present tense.
 
-## Present Tense (Presente)
+## Present Indicative
 
 | Pronoun             | Conjugation |
 | ------------------- | ----------- |

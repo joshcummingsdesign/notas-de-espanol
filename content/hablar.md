@@ -7,7 +7,7 @@ category: Verbs
 
 "Hablar" means "to speak" or "to talk." It's a regular -ar verb.
 
-## Present Tense (Presente)
+## Present Indicative
 
 | Pronoun             | Conjugation |
 | ------------------- | ----------- |

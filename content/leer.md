@@ -7,7 +7,7 @@ category: Verbs
 
 "Leer" means "to read." It's an -er verb with spelling changes in some tenses.
 
-## Present Tense (Presente)
+## Present Indicative
 
 | Pronoun             | Conjugation |
 | ------------------- | ----------- |

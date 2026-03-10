@@ -7,7 +7,7 @@ category: Verbs
 
 "Ayudar" means "to help." It's a regular -ar verb.
 
-## Present Tense (Presente)
+## Present Indicative
 
 | Pronoun             | Conjugation |
 | ------------------- | ----------- |

@@ -7,7 +7,7 @@ category: Verbs
 
 "Estudiar" means "to study." It's a regular -ar verb.
 
-## Present Tense (Presente)
+## Present Indicative
 
 | Pronoun             | Conjugation |
 | ------------------- | ----------- |

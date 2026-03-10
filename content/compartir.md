@@ -7,7 +7,7 @@ category: Verbs
 
 "Compartir" means "to share." It's a regular -ir verb.
 
-## Present Tense (Presente)
+## Present Indicative
 
 | Pronoun             | Conjugation  |
 | ------------------- | ------------ |

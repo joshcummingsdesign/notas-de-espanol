@@ -7,7 +7,7 @@ category: Verbs
 
 "Tener" means "to have." It's an irregular verb with a "go" form in the first person singular and a stem change (e → ie).
 
-## Present Tense (Presente)
+## Present Indicative
 
 Irregular yo form: tengo. Stem change: e → ie in all forms except nosotros.
 

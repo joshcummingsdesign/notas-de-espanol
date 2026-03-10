@@ -7,7 +7,7 @@ category: Verbs
 
 "Trabajar" means "to work." It's a regular -ar verb.
 
-## Present Tense (Presente)
+## Present Indicative
 
 | Pronoun             | Conjugation |
 | ------------------- | ----------- |

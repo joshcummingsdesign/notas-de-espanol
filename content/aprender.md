@@ -7,7 +7,7 @@ category: Verbs
 
 "Aprender" means "to learn." It's a regular -er verb.
 
-## Present Tense (Presente)
+## Present Indicative
 
 | Pronoun             | Conjugation |
 | ------------------- | ----------- |

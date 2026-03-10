@@ -7,7 +7,7 @@ category: Verbs
 
 "Querer" means "to want" or "to love." It's a stem-changing verb (e → ie).
 
-## Present Tense (Presente)
+## Present Indicative
 
 Stem change: e → ie in all forms except nosotros.
 

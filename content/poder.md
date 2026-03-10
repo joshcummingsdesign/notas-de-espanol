@@ -7,7 +7,7 @@ category: Verbs
 
 "Poder" means "to be able to" or "can." It's a stem-changing verb (o → ue).
 
-## Present Tense (Presente)
+## Present Indicative
 
 Stem change: o → ue in all forms except nosotros.
 

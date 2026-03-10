@@ -7,7 +7,7 @@ category: Verbs
 
 "Hacer" means "to do" or "to make." It's an irregular verb with a "go" form in the first person singular.
 
-## Present Tense (Presente)
+## Present Indicative
 
 Irregular yo form: hago
 
@@ -36,3 +36,13 @@ Irregular yo form: hago
 | Hago la cena.        | I'm making dinner.   |
 | Ella hace un pastel. | She's making a cake. |
 | Hacemos planes.      | We're making plans.  |
+
+## Hace + Time Expression
+
+Use "hace" with a time expression to say "ago":
+
+| Spanish          | English          |
+| ---------------- | ---------------- |
+| Hace dos horas.  | Two hours ago. (Literally "it makes two hours.") |
+| Hace una semana. | A week ago.      |
+| Hace un año.     | A year ago.      |

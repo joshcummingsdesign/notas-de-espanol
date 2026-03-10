@@ -7,7 +7,7 @@ category: Verbs
 
 "Comer" means "to eat." It's a regular -er verb.
 
-## Present Tense (Presente)
+## Present Indicative
 
 | Pronoun             | Conjugation |
 | ------------------- | ----------- |

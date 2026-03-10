@@ -7,7 +7,7 @@ category: Verbs
 
 "Ir" means "to go." It's a highly irregular verb.
 
-## Present Tense (Presente)
+## Present Indicative
 
 Completely irregular conjugation.
 
@@ -18,6 +18,18 @@ Completely irregular conjugation.
 | él/ella/usted       | va          |
 | nosotros            | vamos       |
 | ellos/ellas/ustedes | van         |
+
+## Past Indicative
+
+Completely irregular - shares the same conjugation as "ser."
+
+| Pronoun             | Conjugation |
+| ------------------- | ----------- |
+| yo                  | fui         |
+| tú                  | fuiste      |
+| él/ella/usted       | fue         |
+| nosotros            | fuimos      |
+| ellos/ellas/ustedes | fueron      |
 
 ## Common Uses
 
