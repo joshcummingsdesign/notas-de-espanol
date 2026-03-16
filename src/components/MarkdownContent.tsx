@@ -2,6 +2,7 @@
 
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 import { Typography, Box, styled } from "@mui/material";
 
 interface Props {
@@ -13,6 +14,7 @@ export const MarkdownContent = ({ content }: Props) => {
     <ContentWrapper>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw]}
         components={{
           h1: ({ children }) => (
             <Typography variant="h1" gutterBottom>

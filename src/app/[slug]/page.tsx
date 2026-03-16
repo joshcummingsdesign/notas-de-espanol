@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { getPageBySlug, getAllSlugs } from "@/lib/content";
 import { MarkdownContent } from "@/components/MarkdownContent";
 import { notFound } from "next/navigation";
@@ -5,6 +6,14 @@ import { notFound } from "next/navigation";
 interface Props {
   params: Promise<{ slug: string }>;
 }
+
+export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
+  const { slug } = await params;
+  const page = getPageBySlug(slug);
+  return {
+    title: page ? `${page.title} | Notas de Español` : "Notas de Español",
+  };
+};
 
 export const generateStaticParams = async () => {
   const slugs = getAllSlugs();
