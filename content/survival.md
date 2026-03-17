@@ -8,3 +8,4 @@ category: Vocabulary
 | Spanish               | English               |
 | --------------------- | --------------------- |
 | ¿Cómo se dice esto?   | How do you say this?  |
+| No entiendo           | I don't understand    |
